@@ -16,6 +16,7 @@ kotlin {
                 implementation(kotlin("test"))
                 implementation(libs.kotlinx.coroutines)
                 implementation(libs.assertk)
+                implementation(libs.stately.isolate)
             }
         }
     }
